@@ -1,0 +1,31 @@
+{% load static %}
+
+<link
+rel="stylesheet"
+type="text/css"
+href="{% static "css/mdb.rtl.min.css" %}"
+/>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+    <nav class="ms-5">
+        <a class="btn btn-outline-primary" href="/">Домашняя страница</a>
+        <a class="btn btn-info" href="/contact/">Контактная информация</a>
+    </nav>
+</div>
+<div
+  class="bg-image d-flex justify-content-center align-items-center"
+  style="
+    background-image: url('https://media.tinkoff.ru/stories/media/images/744dcd9447deeb0a8f10e024eb8616e5.png');
+    height: 90vh;
+  "
+>
+  <h1 class="text-white">Это домашняя страница.</h1>
+</div>
+</body>
+</html>
